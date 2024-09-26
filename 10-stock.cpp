@@ -10,7 +10,7 @@ int stock(vector<int> a)
     {
         if (a[i] > bestBuy)
         {
-            maxProfit = max(maxProfit, a[i]);
+            maxProfit = max(maxProfit, a[i] - bestBuy);
         }
 
         bestBuy = min(bestBuy, a[i]);
