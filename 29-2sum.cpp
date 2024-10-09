@@ -23,6 +23,7 @@ bool twoSum(vector<int> &nums, int target)
 
 int main()
 {
+
     vector<int> a = {2, 7, 11, 15};
     int target = 9;
     cout << twoSum(a, target);
